@@ -8,6 +8,6 @@ packages:
   # UART config
   uart: !include ../esp12e/uart.yaml
   # Config ESP-12F onboard led as status
-  status: !include ../esp12e/status-led.yaml
+  # status: !include ../esp12e/status-led.yaml
   # HTTP server config
   web: !include ../../common/web.yaml
